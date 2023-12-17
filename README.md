@@ -3,7 +3,7 @@
 
 "create-read-update-delete"
 
-<h2> Used technologiesy </h2>
+<h2> Used technologies </h2>
 
 REACT
 
