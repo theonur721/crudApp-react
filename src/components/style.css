@@ -1,0 +1,71 @@
+.cardbox1{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 240px;
+    padding: 0 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cardbox1 .cardname{
+    align-items: center;
+    margin: auto;
+}
+
+
+.btn-group{
+    display: flex;
+    justify-content: end;
+    gap: 1px;
+}
+
+.del{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.upd{
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+}
+
+.rea{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* modal */
+
+.confirm-modal{
+    background-color: white;
+    padding: 6px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    width: 20%;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.confirm-modal input{
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.confirm-modal div .btn{
+    background-color: red;
+    color: white;
+    margin: 0.1rem;
+}
+
+.confirm-modal div .btnkaydet{
+    background-color: green;
+    color: white;
+    margin: 0.1rem;
+}
